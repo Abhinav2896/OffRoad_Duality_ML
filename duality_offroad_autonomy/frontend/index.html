@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Duality AI - Integrated Autonomy System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Duality AI - Offroad Autonomy</h1>
+            <p>TechnoMania 2.0 Challenge | Track A (NLP) & Track B (CV)</p>
+        </header>
+
+        <main>
+            <section class="upload-section">
+                <input type="file" id="imageInput" accept="image/*">
+                <button onclick="processImage()" id="processBtn">Process Image</button>
+            </section>
+
+            <section class="status-panel">
+                <div id="statusBox" class="status-box waiting">Waiting for Input...</div>
+                <div id="reportText" class="report-text"></div>
+            </section>
+
+            <section class="results-grid">
+                <div class="result-card">
+                    <h3>Original Image</h3>
+                    <img id="originalImg" src="" alt="Original">
+                </div>
+                <div class="result-card">
+                    <h3>Segmentation Overlay</h3>
+                    <img id="overlayImg" src="" alt="Segmentation">
+                </div>
+                <div class="result-card">
+                    <h3>Planned Path</h3>
+                    <img id="pathImg" src="" alt="Path Planning">
+                </div>
+            </section>
+            
+            <section class="metrics-panel">
+                <h3>Detailed Metrics</h3>
+                <pre id="metricsPre"></pre>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
