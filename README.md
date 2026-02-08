@@ -126,15 +126,6 @@ Then open `duality_offroad_autonomy/frontend/index.html` in your web browser to 
 Due to GitHub file size limits, the `best_model.pth` is included in this repo via Git LFS or available externally if needed.
 *   **Location**: `duality_offroad_autonomy/backend/model/best_model.pth`
 
-### Visualizations
-**Training Loss & Validation mIoU**
-![Loss Curve](duality_offroad_autonomy/outputs/loss_curve.png)
 
----
-
-## 👥 Team
-*   **Abhinav** - ML Engineer & System Architect
-
----
 
 *This project was developed for the Duality AI Integrated Autonomy Challenge.*
